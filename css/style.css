@@ -205,3 +205,12 @@ canvas {
     color: #01ACAC;
     padding: 0 10px 0 10px;
 }
+
+.ctr {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 13px;
+}
+.ctr span{
+    padding: 3px 0px 3px 25px;
+}
