@@ -209,8 +209,30 @@ canvas {
 .ctr {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    font-size: 13px;
+    font-size: 15px;
 }
+
 .ctr span{
-    padding: 3px 0px 3px 25px;
+    padding: 3px 0px 3px 20px;
+}
+
+.aff {
+    border-bottom: 1px solid #222222;
+    border-top: 1px solid #222222;
+    line-height: 20px;
+}
+
+#one div, #two div, #three div {
+    border-bottom: 1px solid #222222;
+    line-height: 30px;
+}
+
+#one, #two, #three {
+    position: relative;
+}
+
+.affSign {
+    position: absolute;
+    right: 5px;
+    top:0;
 }
