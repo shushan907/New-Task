@@ -2,11 +2,13 @@ body {
     margin: 0 auto;
     padding: 0;
     position: relative;
-    width: 70%;
+    width: 950px;
+    min-width: 950px;
 }
 
 #side {
     margin-left: 40px;
+    width: 910px;
 }
 
 #main {
@@ -42,8 +44,8 @@ body {
 }
 
 #container2 {
-    grid-template-columns: 46% 23% auto;
-    height: 250px;
+    grid-template-columns: 420px 210px 280px;
+    height: 260px;
 }
 
 #container3 {
@@ -53,6 +55,10 @@ body {
 
 #container1>div {
     border: 1px solid #EAEBEB;
+}
+
+#container3>div {
+    border-left: 1px solid #E2E2E2;
 }
 
 #tools {
@@ -75,7 +81,7 @@ body {
 }
 
 #tools_item li:hover {
-    color: red;
+    background-color: red;
 }
 
 .b {
@@ -229,10 +235,32 @@ canvas {
 
 #one, #two, #three {
     position: relative;
+    padding-left: 5px;
 }
 
 .affSign {
     position: absolute;
-    right: 5px;
-    top:0;
+    right: 10px;
+    top: 0;
+}
+
+#affTable, #commisionTable, #signTable {
+    width: 100%;
+}
+
+caption {
+    text-align: left;
+    background-color: #353535;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    color: #A7A7A7;
+    padding-left: 10px;
+}
+td {
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #6B6B6B;
 }
