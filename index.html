@@ -5,9 +5,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task for internship program</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    
+    <div id="side">
+        <div id='main'></div>
+        <div id=dashboard>
+            <i class="fa fa-angle-right"></i> Dashboard 
+            <span class='fav'><i class="fa fa-heart"></i>ADD THIS PAGE TO FAVORITES</span>
+        </div>
+        <div id='container'>
+            <div id='container1'>
+                <div id="item1">
+                    <div class="num">25</div>
+                    <div class="text"><i class="fa fa-check"><span class="text_color">SIGNUPS</span></i></div>
+                </div>
+                <div id="item2">
+                    <div class="num">&#36; 1000</div>
+                    <div class="text"><i class="fa fa-line-chart"><span class="text_color"> PROFIT</span></i></div>
+                </div>
+                <div id="item3">
+                    <div class="num">&#36; 350</div>
+                    <div class="text"><i class="fa fa-money"><span class="text_color"> COMMISIONS</span></i></div>
+                </div>
+                <div id="item4">
+                    <div class="num">&#36; 300</div>
+                    <div class="text"><i class="fa fa-question-circle"><span class="text_color"> PENDING COMMISIONS</span></i></div>
+                </div> 
+            </div>
+            <div id='container2'>
+                <div id="item5">
+                    <span class="media">Medias Staats</span>
+                    <span class='lastWeek'>Last Week</span>
+                    
+                    <i class="fa fa-angle-down"></i>
+                    
+                    <ul class="coord">
+                        <li>60</li>
+                        <li>40</li>
+                        <li>20</li>
+                        <li>0</li>
+                        <li>-20</li>
+                        <li>-40</li>
+                        <li>-60</li>
+                    </ul>
+                    
+                    <canvas id="myCanvas" width="360px" height="200"></canvas>
+
+                </div>
+                <div id="item6">
+                    <span>Activ Medias</span>
+                </div>
+                <div id="item7">
+                    <span>Geografic Data</span>
+                    <span>Last Week</span>
+                    <i class="fa fa-angle-down"></i>
+                </div>
+            </div>
+            <div id='container3'>
+                <div id="item8"></div>
+                <div id="item9"></div>
+                <div id="item10"></div>
+            </div>
+        </div>
+    </div>
+    <div id="tools">
+        <ul id="tools_item">
+            <li class = 'b'>b</li>
+            <li><i class="fa fa-tachometer"></i></li>
+            <li><i class="fa fa-key"></i></li>
+            <li><i class="fa fa-user"></i></li>
+            <li><i class="fa fa-bullhorn"></i></li>
+            <li><i class="fa fa-industry"></i></li>
+            <li><i class="fa fa-exchange"></i></li>
+            <li class="last_li"><i class="fa fa-cog"></i></li>
+            <li class="last_li"><i class="fa fa-heart"></i></li>
+            <li class="last_li"><i class="fa fa-clock-o"></i></li>
+            <li class="last_li"><i class="fa fa-eye"></i></li>
+            <li style="font-size: 10px;">#171717</li>
+        </ul>
+    </div>
     <script src="./javaScript/main.js" type="module"></script>
 </body>
 </html>

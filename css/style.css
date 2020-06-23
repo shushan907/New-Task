@@ -1,0 +1,170 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    width: 70%;
+}
+
+#side {
+    margin-left: 40px;
+}
+
+#main {
+    height: 55px;
+}
+
+#dashboard {
+    position: relative;
+    height: 36px;
+    line-height: 36px;
+    background-color: #ECECEC;
+    font-size: 12px;
+    color:#8A8989;
+    font-weight: bold;
+}
+
+.fav {
+    padding: 0 10px 0 10px;
+    height: 36px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color:#D8D8D8;
+}
+
+#container > div{
+    display: grid;
+}
+
+#container1 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 115px;
+}
+
+#container2 {
+    grid-template-columns: 46% 23% auto;
+    height: 250px;
+}
+
+#container3 {
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 200px;
+}
+
+#container1>div {
+    border: 1px solid #EAEBEB;
+}
+
+#tools {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#tools_item {
+    padding: 0;
+    width: 40px;
+    background-color:#222222;
+    color: white;
+}
+
+#tools_item li {
+    list-style-type: none;
+    line-height: 35px;
+    text-align: center;
+}
+
+#tools_item li:hover {
+    color: red;
+}
+
+.b {
+    border: 3px solid red; 
+    font: italic bold 23px Cambria;
+}
+
+.last_li {
+    border-bottom: 1px solid #878787;
+    color: #878787;
+    background-color:#171717;
+}
+
+.fa-angle-right {
+    font-size: 25px;
+    font-weight: bold;
+    background-color:black;
+    color: white;
+    padding: 2px 5px 3px 5px;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+#container1>div {
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+    height: 100%;
+}
+
+#item1, #item4 {
+    color: #01ACAC;
+}
+
+#item2 {
+    color: #227DB6;
+    background-image: url('/image/2.png');
+}
+
+#item3 {
+    color: #FBD37F;
+    background-image: url('/image/3.png');
+}
+
+#item5, #item7 {
+    position: relative;
+    background-color: #2A2A2A;
+}
+
+#item6 {
+    background-color: #222222;
+}
+
+#item1 {
+    background-image: url('/image/1.png');
+}
+
+#item4 {
+    background-image: url('/image/4.png');
+}
+
+#container2 {
+    color: #878686;
+}
+
+.num {
+    font: bold 35px serif;
+}
+.text {
+    font: bold 12px serif;
+}
+.text_color {
+    color:#ACABAC;
+}
+.coord {
+    margin: 0;
+    padding: 5px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    text-align: center;
+}
+.coord li {
+    list-style-type: none;
+    line-height: 29px;
+    margin: 0;
+}
+canvas {
+    padding-left: 30px;
+}
