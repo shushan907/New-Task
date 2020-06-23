@@ -146,12 +146,15 @@ body {
 .num {
     font: bold 35px serif;
 }
+
 .text {
     font: bold 12px serif;
 }
+
 .text_color {
     color:#ACABAC;
 }
+
 .coord {
     margin: 0;
     padding: 5px;
@@ -160,11 +163,45 @@ body {
     left: 0;
     text-align: center;
 }
+
 .coord li {
     list-style-type: none;
     line-height: 29px;
     margin: 0;
 }
+
 canvas {
     padding-left: 30px;
+}
+
+.media {
+    padding: 5px;
+    font-size: 20px;
+}
+
+.lastWeek {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.diagramInfo {
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+}
+
+.cliks i {
+    color: #FBD37F;
+    padding: 0 10px 0 10px;
+}
+
+.pageView i {
+    color: #227DB6;
+    padding: 0 10px 0 10px;
+}
+
+.signUp i {
+    color: #01ACAC;
+    padding: 0 10px 0 10px;
 }
