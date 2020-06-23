@@ -9,14 +9,23 @@ drawCircle('#01AAAA', 50, 8);
 drawCircle('#FBCF71', 40, 20);
 drawCircle('#1F7BB6', 55, 0);
 
+fillTable('affTable');
+fillTable('signTable');
+fillTable('commisionTable');
 
-
-/*function fillTable() {
+async function fillTable(id) {
     let i = 1;
-    let j = 0;
-    let table = document.getElementById("table");
-    for (j; j < 7; j++) {
+    let response = await fetch(`../JSON/sign.json`);
+    let signups = await response.json();
+    let table = document.getElementById(id);
+
+    for (let j = 0; j < signups.length; j++) {
         let row = table.insertRow(i);
-        row.insertCell(j).innerHTML = "NEW CELL1";
-    }
-}*/
+        row.insertCell(0).innerHTML = signups[j].id;
+        row.insertCell(1).innerHTML = signups[j].username;
+        row.insertCell(2).innerHTML = signups[j].profit;
+        row.insertCell(3).innerHTML = signups[j].commision;
+        row.insertCell(4).innerHTML = `<i class="fa fa-navicon"></i>`;
+        i++;
+    }; 
+};
