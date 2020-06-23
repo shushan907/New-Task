@@ -6,5 +6,7 @@ export function drawCircle(color, x, y) {
     ctx.lineWidth = 15;
     ctx.strokeStyle = color;
     ctx.stroke();
-};
-
+    ctx.font = "30px serif";
+    ctx.fillStyle = "#878686";
+    ctx.fillText("50", 55, 80);
+}
