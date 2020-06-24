@@ -18,7 +18,7 @@ document.getElementById('tools_item').style.height = height +'px';
 
 async function fillTable(id) {
     let i = 1;
-    let response = await fetch(`../JSON/sign.json`);
+    let response = await fetch(`./JSON/sign.json`);
     let signups = await response.json();
     let table = document.getElementById(id);
 
