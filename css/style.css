@@ -159,12 +159,12 @@ body {
 
 #item2 {
     color: #227DB6;
-    background-image: url('/image/2.png');
+    background-image: url('../image/2.png');
 }
 
 #item3 {
     color: #FBD37F;
-    background-image: url('/image/3.png');
+    background-image: url('../image/3.png');
 }
 
 #item5, #item7 {
@@ -179,11 +179,11 @@ body {
 }
 
 #item1 {
-    background-image: url('/image/1.png');
+    background-image: url('../image/1.png');
 }
 
 #item4 {
-    background-image: url('/image/4.png');
+    background-image: url('../image/4.png');
 }
 
 .num {
