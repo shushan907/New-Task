@@ -13,6 +13,9 @@ fillTable('affTable');
 fillTable('signTable');
 fillTable('commisionTable');
 
+let h = document.body.scrollHeight;
+document.getElementById('tools_item').style.height = h +'px';
+
 async function fillTable(id) {
     let i = 1;
     let response = await fetch(`../JSON/sign.json`);

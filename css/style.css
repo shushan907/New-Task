@@ -6,13 +6,13 @@ body {
     min-width: 950px;
 }
 
-#side {
-    margin-left: 40px;
-    width: 910px;
+#allContent {
+    display: grid;
+    grid-template-columns: 1fr 19fr;
 }
 
 #main {
-    height: 55px;
+    height: 40px;
 }
 
 #dashboard {
@@ -40,36 +40,31 @@ body {
 
 #container1 {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 900px;
     height: 115px;
 }
 
 #container2 {
-    grid-template-columns: 420px 210px 280px;
+    grid-template-columns: 417px 205px 280px;
     height: 260px;
 }
 
 #container3 {
     grid-template-columns: 1fr 1fr 1fr;
-    height: 200px;
+    width: 902px;
 }
 
-#container1>div {
+#container1 > div {
     border: 1px solid #EAEBEB;
 }
 
-#container3>div {
-    border-left: 1px solid #E2E2E2;
-}
-
 #tools {
-    position: absolute;
-    top: 0;
-    left: 0;
+    background-color: #171717;
 }
 
 #tools_item {
     padding: 0;
-    width: 40px;
+    margin: 0;
     background-color:#222222;
     color: white;
 }
@@ -90,7 +85,7 @@ body {
 }
 
 .last_li {
-    border-bottom: 1px solid #878787;
+    border-bottom: 1px solid #222222;
     color: #878787;
     background-color:#171717;
 }
@@ -105,7 +100,7 @@ body {
     border-top-right-radius: 3px;
 }
 
-#container1>div {
+#container1 > div {
     display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -246,6 +241,8 @@ canvas {
 
 #affTable, #commisionTable, #signTable {
     width: 100%;
+    border-collapse: collapse;
+    border-left: 1px solid #D1C5D3;
 }
 
 caption {
@@ -257,10 +254,12 @@ caption {
     color: #A7A7A7;
     padding-left: 10px;
 }
+
 td {
     text-align: center;
     height: 30px;
     line-height: 30px;
     font-size: 14px;
     color: #6B6B6B;
+    border-bottom: 1px solid #ddd;
 }

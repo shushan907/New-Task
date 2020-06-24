@@ -8,157 +8,160 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div id="side">
-        <div id='main'></div>
-        <div id=dashboard>
-            <i class="fa fa-angle-right"></i> Dashboard 
-            <span class='fav'><i class="fa fa-heart"></i>ADD THIS PAGE TO FAVORITES</span>
+    <div id = 'allContent'>
+        <div id="tools">
+            <ul id="tools_item">
+                <li class = 'b'>b</li>
+                <li><i class="fa fa-tachometer"></i></li>
+                <li><i class="fa fa-key"></i></li>
+                <li><i class="fa fa-user"></i></li>
+                <li><i class="fa fa-bullhorn"></i></li>
+                <li><i class="fa fa-industry"></i></li>
+                <li><i class="fa fa-exchange"></i></li>
+                <li><i class="fa fa-cog"></i></li>
+                <li class="last_li"><i class="fa fa-heart"></i></li>
+                <li class="last_li"><i class="fa fa-clock-o"></i></li>
+                <li class="last_li"><i class="fa fa-eye"></i></li>
+                <li class="last_li" style="font-size: 10px;">#171717</li>
+            </ul>
         </div>
-        <div id='container'>
-            <div id='container1'>
-                <div id="item1">
-                    <div class="num">25</div>
-                    <div class="text"><i class="fa fa-check"><span class="text_color">SIGNUPS</span></i></div>
-                </div>
-                <div id="item2">
-                    <div class="num">&#36; 1000</div>
-                    <div class="text"><i class="fa fa-line-chart"><span class="text_color"> PROFIT</span></i></div>
-                </div>
-                <div id="item3">
-                    <div class="num">&#36; 350</div>
-                    <div class="text"><i class="fa fa-money"><span class="text_color"> COMMISIONS</span></i></div>
-                </div>
-                <div id="item4">
-                    <div class="num">&#36; 300</div>
-                    <div class="text"><i class="fa fa-question-circle"><span class="text_color"> PENDING COMMISIONS</span></i></div>
-                </div> 
+    
+        <div id="side">
+            <div id='main'></div>
+            <div id=dashboard>
+                <i class="fa fa-angle-right"></i> Dashboard 
+                <span class='fav'><i class="fa fa-heart"></i>ADD THIS PAGE TO FAVORITES</span>
             </div>
-            <div id='container2'>
-                <div id="item5">
-                    <span class="media">Medias Staats</span>
-                    <span class='lastWeek'>Last Week
-                        <i class="fa fa-angle-down"></i>
-                    </span>
-                    
-                    <ul class="coord">
-                        <li>60</li>
-                        <li>40</li>
-                        <li>20</li>
-                        <li>0</li>
-                        <li>-20</li>
-                        <li>-40</li>
-                        <li>-60</li>
-                    </ul>
-                    
-                    <canvas id="myCanvas" width="360px" height="200"></canvas>
-                    <span class='diagramInfo'>
-                        <span class='cliks'><i class="fa fa-square"></i>Cliks</span>
-                        <span class='pageView'><i class="fa fa-square"></i>Page View</span>
-                        <span class="signUp"><i class="fa fa-square"></i>Sign ups</span>
-                    </span>
+            <div id='container'>
+                <div id='container1'>
+                    <div id="item1">
+                        <div class="num">25</div>
+                        <div class="text"><i class="fa fa-check"><span class="text_color">SIGNUPS</span></i></div>
+                    </div>
+                    <div id="item2">
+                        <div class="num">&#36; 1000</div>
+                        <div class="text"><i class="fa fa-line-chart"><span class="text_color"> PROFIT</span></i></div>
+                    </div>
+                    <div id="item3">
+                        <div class="num">&#36; 350</div>
+                        <div class="text"><i class="fa fa-money"><span class="text_color"> COMMISIONS</span></i></div>
+                    </div>
+                    <div id="item4">
+                        <div class="num">&#36; 300</div>
+                        <div class="text"><i class="fa fa-question-circle"><span class="text_color"> PENDING COMMISIONS</span></i></div>
+                    </div> 
                 </div>
-                <div id="item6">
-                    <span class="media">Activ Medias</span>
-                    <canvas id="myCanvas2" width="180px" height="120px"></canvas>
-                    <div class='ctr'>
-                            <span>
-                                <i class="fa fa-circle-o" style='color:#222222; font-size: 9px;'></i> CTR
-                            </span>
-                            <span>25%</span>
-                            <span>
-                                <i class="fa fa-circle-o" style='color:#FBD37F; font-size: 9px;'></i> Total Views
-                            </span>
-                            <span>200</span>
-                            <span>
-                                <i class="fa fa-circle-o" style='color:#227DB6; font-size: 9px;'></i> Total Cliks
-                            </span>
-                            <span>65</span>
-                            <span>
-                                <i class="fa fa-circle-o" style='color:#01ACAC; font-size: 9px;'></i> Signups
-                            </span>
-                            <span>22</span>
+                <div id='container2'>
+                    <div id="item5">
+                        <span class="media">Medias Staats</span>
+                        <span class='lastWeek'>Last Week
+                            <i class="fa fa-angle-down"></i>
+                        </span>
+                        
+                        <ul class="coord">
+                            <li>60</li>
+                            <li>40</li>
+                            <li>20</li>
+                            <li>0</li>
+                            <li>-20</li>
+                            <li>-40</li>
+                            <li>-60</li>
+                        </ul>
+                        
+                        <canvas id="myCanvas" width="360px" height="200"></canvas>
+                        <span class='diagramInfo'>
+                            <span class='cliks'><i class="fa fa-square"></i>Cliks</span>
+                            <span class='pageView'><i class="fa fa-square"></i>Page View</span>
+                            <span class="signUp"><i class="fa fa-square"></i>Sign ups</span>
+                        </span>
+                    </div>
+                    <div id="item6">
+                        <span class="media">Activ Medias</span>
+                        <canvas id="myCanvas2" width="180px" height="120px"></canvas>
+                        <div class='ctr'>
+                                <span>
+                                    <i class="fa fa-circle-o" style='color:#222222; font-size: 9px;'></i> CTR
+                                </span>
+                                <span>25%</span>
+                                <span>
+                                    <i class="fa fa-circle-o" style='color:#FBD37F; font-size: 9px;'></i> Total Views
+                                </span>
+                                <span>200</span>
+                                <span>
+                                    <i class="fa fa-circle-o" style='color:#227DB6; font-size: 9px;'></i> Total Cliks
+                                </span>
+                                <span>65</span>
+                                <span>
+                                    <i class="fa fa-circle-o" style='color:#01ACAC; font-size: 9px;'></i> Signups
+                                </span>
+                                <span>22</span>
+                        </div>
+                    </div>
+                    <div id="item7">
+                        <span class="media">Geografic Data</span>
+                        <span class="lastWeek">Last Week
+                            <i class="fa fa-angle-down"></i>
+                        </span>
+                        <img src="./image/map.png" alt="" width="100%">
+                        <span class='aff' style="padding: 5px 0 5px 145px;">Affilate Sign Ups
+                            <i class="fa fa-angle-down"></i>
+                        </span>
+                        <br/>
+                        <div id='one'>
+                            <div>1. United States</div>
+                            <div class="affSign">200</div>
+                        </div>
+                        <div id='two'>
+                            <div>2. China</div>
+                            <div class="affSign">65</div>
+                        </div>
+                        <div id='three'>
+                            <div>3. United Kingdom</div>
+                            <div class="affSign">22</div>
+                        </div>
                     </div>
                 </div>
-                <div id="item7">
-                    <span class="media">Geografic Data</span>
-                    <span class="lastWeek">Last Week
-                        <i class="fa fa-angle-down"></i>
-                    </span>
-                    <img src="./image/map.png" alt="" width="100%">
-                    <span class='aff' style="padding: 5px 0 5px 145px;">Affilate Sign Ups
-                        <i class="fa fa-angle-down"></i>
-                    </span>
-                    <br/>
-                    <div id='one'>
-                        <div>1. United States</div>
-                        <div class="affSign">200</div>
+                <div id='container3'>
+                    <div id="item8">
+                        <table id='affTable'>
+                            <caption>Top Affilates</caption>
+                            <tr>
+                                <td>ID</td>
+                                <td>Username</td>
+                                <td>Profit ($)</td>
+                                <td>Commision ($)</td>
+                                <td>View</td>
+                            </tr>
+                        </table>
                     </div>
-                    <div id='two'>
-                        <div>2. China</div>
-                        <div class="affSign">65</div>
+                    <div id="item9">
+                        <table id="signTable">
+                            <caption>Signups</caption>
+                            <tr>
+                                <td>ID</td>
+                                <td>Username</td>
+                                <td>Profit ($)</td>
+                                <td>Commision ($)</td>
+                                <td>View</td>
+                            </tr>
+                        </table>
                     </div>
-                    <div id='three'>
-                        <div>3. United Kingdom</div>
-                        <div class="affSign">22</div>
+                    <div id="item10">
+                        <table id='commisionTable'>
+                            <caption>Pending Commisions</caption>
+                            <tr>
+                                <td>ID</td>
+                                <td>Username</td>
+                                <td>Profit ($)</td>
+                                <td>Commision ($)</td>
+                                <td>View</td>
+                            </tr>
+                        </table>
                     </div>
-                </div>
-            </div>
-            <div id='container3'>
-                <div id="item8">
-                    <table id='affTable'>
-                        <caption>Top Affilates</caption>
-                        <tr>
-                            <td>ID</td>
-                            <td>Username</td>
-                            <td>Profit ($)</td>
-                            <td>Commision ($)</td>
-                            <td>View</td>
-                        </tr>
-                    </table>
-                </div>
-                <div id="item9">
-                    <table id="signTable">
-                        <caption>Signups</caption>
-                        <tr>
-                            <td>ID</td>
-                            <td>Username</td>
-                            <td>Profit ($)</td>
-                            <td>Commision ($)</td>
-                            <td>View</td>
-                        </tr>
-                    </table>
-                </div>
-                <div id="item10">
-                    <table id='commisionTable'>
-                        <caption>Pending Commisions</caption>
-                        <tr>
-                            <td>ID</td>
-                            <td>Username</td>
-                            <td>Profit ($)</td>
-                            <td>Commision ($)</td>
-                            <td>View</td>
-                        </tr>
-                    </table>
                 </div>
             </div>
         </div>
-    </div>
 
-    <div id="tools">
-        <ul id="tools_item">
-            <li class = 'b'>b</li>
-            <li><i class="fa fa-tachometer"></i></li>
-            <li><i class="fa fa-key"></i></li>
-            <li><i class="fa fa-user"></i></li>
-            <li><i class="fa fa-bullhorn"></i></li>
-            <li><i class="fa fa-industry"></i></li>
-            <li><i class="fa fa-exchange"></i></li>
-            <li class="last_li"><i class="fa fa-cog"></i></li>
-            <li class="last_li"><i class="fa fa-heart"></i></li>
-            <li class="last_li"><i class="fa fa-clock-o"></i></li>
-            <li class="last_li"><i class="fa fa-eye"></i></li>
-            <li style="font-size: 10px;">#171717</li>
-        </ul>
     </div>
     <script src="./javaScript/main.js" type="module"></script>
 </body>
