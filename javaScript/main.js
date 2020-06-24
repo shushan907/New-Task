@@ -5,9 +5,9 @@ drawCanvas(150,'#01AAAA',);
 drawCanvas(175,'#FBCF71');
 drawCanvas(200,'#1F7BB6');
 
-drawCircle('#01AAAA', 50, 8);
-drawCircle('#FBCF71', 40, 20);
-drawCircle('#1F7BB6', 55, 0);
+drawCircle('#01AAAA', 0, 0.5);
+drawCircle('#FBCF71', 1.5, 1.5);
+drawCircle('#1F7BB6', 4.7, 2);
 
 fillTable('affTable');
 fillTable('signTable');
@@ -55,4 +55,28 @@ document.querySelector('.pageView').addEventListener('mouseover', () => {
 
 document.querySelector('.pageView').addEventListener('mouseout', () => {
     drawCanvas(200,'#1F7BB6');
+});
+
+document.querySelector('.totalView').addEventListener('mouseover', () => {
+    drawCircle('#2A2A2A', 1.5, 1.5);  
+});
+
+document.querySelector('.totalView').addEventListener('mouseout', () => {
+    drawCircle('#FBCF71', 1.5, 1.5);
+});
+
+document.querySelector('.totelCliks').addEventListener('mouseover', () => {
+    drawCircle('#2A2A2A', 4.7, 2); 
+});
+
+document.querySelector('.totelCliks').addEventListener('mouseout', () => {
+    drawCircle('#1F7BB6', 4.7, 2);
+});
+
+document.querySelector('.totalSignups').addEventListener('mouseover', () => {
+    drawCircle('#2A2A2A', 0, 0.5); 
+});
+
+document.querySelector('.totalSignups').addEventListener('mouseout', () => {
+    drawCircle('#01AAAA', 0, 0.5);
 });
