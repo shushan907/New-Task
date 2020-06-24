@@ -13,6 +13,16 @@ body {
 
 #main {
     height: 45px;
+    line-height: 45px;
+    display: grid;
+    grid-template-columns: 6fr 1fr 3fr;
+}
+
+#lang {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 #dashboard {
