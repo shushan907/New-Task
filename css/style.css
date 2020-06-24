@@ -9,6 +9,7 @@ body {
 #allContent {
     display: grid;
     grid-template-columns: 1fr 19fr;
+    border-bottom: 1px solid #171717;
 }
 
 #main {
@@ -266,7 +267,7 @@ canvas {
 
 #one div, #two div, #three div {
     border-bottom: 1px solid #222222;
-    line-height: 30px;
+    line-height: 31px;
 }
 
 #one, #two, #three {
