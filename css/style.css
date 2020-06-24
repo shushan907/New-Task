@@ -91,7 +91,7 @@ body {
 
 #container3 {
     grid-template-columns: 1fr 1fr 1fr;
-    width: 902px;
+    width: 902.5px;
 }
 
 #container1 > div {
