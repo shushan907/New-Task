@@ -12,7 +12,7 @@ body {
 }
 
 #main {
-    height: 40px;
+    height: 45px;
 }
 
 #dashboard {
@@ -47,6 +47,7 @@ body {
 #container2 {
     grid-template-columns: 417px 205px 280px;
     height: 260px;
+    color: #878686;
 }
 
 #container3 {
@@ -65,7 +66,6 @@ body {
 #tools_item {
     padding: 0;
     margin: 0;
-    background-color:#222222;
     color: white;
 }
 
@@ -82,12 +82,17 @@ body {
 .b {
     border: 3px solid red; 
     font: italic bold 23px Cambria;
+    letter-spacing: -5px;
 }
 
 .last_li {
     border-bottom: 1px solid #222222;
     color: #878787;
     background-color:#171717;
+}
+
+.li {
+    background-color: #222222;
 }
 
 .fa-angle-right {
@@ -140,10 +145,6 @@ body {
     background-image: url('/image/4.png');
 }
 
-#container2 {
-    color: #878686;
-}
-
 .num {
     font: bold 35px serif;
 }
@@ -188,7 +189,7 @@ canvas {
 
 .diagramInfo {
     position: absolute;
-    bottom: 0;
+    bottom: 5px;
     right: 5px;
 }
 
@@ -214,7 +215,7 @@ canvas {
 }
 
 .ctr span{
-    padding: 3px 0px 3px 20px;
+    padding: 3px 0px 3px 19px;
 }
 
 .aff {
